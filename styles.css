@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logobar {
+    background-color:#22303E;
+}
+.logobar img {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.navigation {
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #344658;
+    text-align: left;
+}
+
+ul {
+    margin-top: 0px;
+    padding-inline-start: 10px;
+    padding-top: 5px;
+}
+
+li {
+    display: inline;
+    margin: 8px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 20px;
+}
