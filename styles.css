@@ -1,6 +1,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color:#ebeced;
+    Margin: 0px;
 }
 
 .logobar {
@@ -39,5 +41,145 @@ li {
 li a {
     color: white;
     text-decoration: none;
-    font-weight: 20px;
+    font-weight: 15px;
+}
+
+button {
+    background-color:#ec7d2d;
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    height: 30px;
+    color: white;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    background-image: url(bg-image.png);
+    width: 1200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    padding-top: 30px;
+}
+
+.header-inline {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-inline h3 {
+    padding-top: 1px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.header-inline button {
+    background: none;
+    color: #087688;
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 100px;
+}
+
+.section-oneline {
+    background-color: white;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.section-oneline img {
+    border-radius: 60px;
+    box-shadow: 5px 3px 10px 5px rgb(223, 218, 218);
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    horizontal-align: bottom;
+}
+
+.image-inline {
+    display: inline-block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.long-image {
+    width: 1200px;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+.long-image img {
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.header {
+    text-align: center;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.button-inline {
+    background: none;
+    color: #087688;
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+}
+
+.under-image {
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 30px;
+    background-color: #344658;
+    height: 40px;
+}
+
+.footer p {
+    padding-top: 10px;
+}
+
+.bottom-logo {
+    background-color: #232e3e;
+}
+
+.bottom-logo img {
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
